@@ -82,8 +82,3 @@ def predict():
               
         return render_template(output_page, pred_output = pred, user_image = file_path)
     
-# For local system & cloud
-if __name__ == "__main__":
-    app.run(threaded=False,port=8080) 
-    
-    
